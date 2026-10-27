@@ -222,3 +222,5 @@ select {
   .wa-circulo img { width: 1.8rem; height: 1.8rem; }
   .idioma-btn { padding-inline: 0.45rem; gap: 0.25rem; }
 }
+
+.etiquetas li.etiqueta-acorde { background: var(--bg); color: var(--fg); border-color: rgba(0, 0, 0, 0.14); font-weight: 600; }

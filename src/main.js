@@ -5,7 +5,8 @@ import '@fontsource/figtree/400.css';
 import '@fontsource/figtree/600.css';
 import './style.css';
 import { registerSW } from 'virtual:pwa-register';
-import { acordeNombre } from './acordes.js';
+import { acordeNombre, acordeColor } from './acordes.js';
+import { notaTxt } from './notas.js';
 import waNegro from './assets/whatsapp-negro.png';
 import { cargarPerfumes } from './data.js';
 import { frasco, colorDe } from './bottle.js';
@@ -359,7 +360,7 @@ function capa(titulo, notas, tono) {
     <div class="capa-barra"></div>
     <div>
       <h3>${esc(titulo)}</h3>
-      <ul>${notas.map((n) => `<li>${esc(n.charAt(0).toUpperCase() + n.slice(1))}</li>`).join('')}</ul>
+      <ul>${notas.map((n) => `<li>${esc(notaTxt(n))}</li>`).join('')}</ul>
     </div>
   </div>`;
 }
@@ -391,7 +392,7 @@ function vistaDetalle(id) {
       <div><dt>${esc(t('para'))}</dt><dd>${esc(generoTxt(p.gender))}</dd></div>
     </dl>
     ${p.usage_tags?.length ? `<h2>${esc(t('uso'))}</h2><ul class="etiquetas">${p.usage_tags.map((u) => `<li>${esc(usoTxt(u))}</li>`).join('')}</ul>` : ''}
-    ${p.accords?.length ? `<h2>${esc(t('acordes'))}</h2><ul class="etiquetas">${p.accords.map((a) => `<li>${esc(acordeNombre(a))}</li>`).join('')}</ul>` : ''}
+    ${p.accords?.length ? `<h2>${esc(t('acordes'))}</h2><ul class="etiquetas">${p.accords.map((a) => { const [bg, fg] = acordeColor(a); return `<li class="etiqueta-acorde" style="--bg:${bg};--fg:${fg}">${esc(acordeNombre(a))}</li>`; }).join('')}</ul>` : ''}
     ${tieneNotas ? `<h2>${esc(t('notas'))}</h2>
     <div class="capas">
       ${capa(t('salida'), p.notes_top, 30)}
