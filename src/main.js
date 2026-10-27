@@ -5,6 +5,7 @@ import '@fontsource/figtree/400.css';
 import '@fontsource/figtree/600.css';
 import './style.css';
 import { registerSW } from 'virtual:pwa-register';
+import waNegro from './assets/whatsapp-negro.png';
 import { cargarPerfumes } from './data.js';
 import { frasco, colorDe } from './bottle.js';
 import {
@@ -133,7 +134,7 @@ function slide(p) {
   <section class="slide" aria-label="${esc(nombre)}">
     <a class="slide-foto" href="#/perfume/${encodeURIComponent(p.id)}" aria-label="${esc(t('ver_ficha', nombre))}">${arte(p)}</a>
     ${botonFav(p)}
-    <a class="wa-slide" href="${esc(waPerfume(p))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('wa_cotizar'))}" title="${esc(t('wa_cotizar'))}">${WA_ICONO}</a>
+    <a class="wa-slide" href="${esc(waPerfume(p))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('wa_cotizar'))}" title="${esc(t('wa_cotizar'))}"><img src="${waNegro}" alt="" width="28" height="28" /></a>
     <div class="slide-texto">
       <p class="marca">${esc(p.brand)}</p>
       <h2 class="nombre">${esc(p.name)}</h2>
