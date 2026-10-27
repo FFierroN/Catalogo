@@ -66,7 +66,7 @@ const ES = {
   'water hyacinth': 'jacinto de agua', 'water lily': 'nenúfar', 'water notes': 'notas acuáticas', 'watery notes': 'notas acuosas', 'whipped cream': 'crema batida',
   whiskey: 'whisky', 'white honey': 'miel blanca', 'white musk': 'almizcle blanco', 'white peach': 'durazno blanco', 'white pepper': 'pimienta blanca',
   'white rose': 'rosa blanca', 'white wood': 'madera blanca', 'white woods': 'maderas blancas', wisteria: 'glicina', 'woodsy notes': 'notas amaderadas',
-  'woody notes': 'notas amaderadas', 'ylang-ylang': 'ilang ilang', yuzu: 'yuzu'
+  'woody notes': 'notas amaderadas', 'copper': 'cobre', 'cacao absolute': 'absoluto de cacao', 'burnt sugar': 'azúcar quemado', 'siam benzoin': 'benjuí de Siam', 'italian bergamot': 'bergamota italiana', 'rich leather': 'cuero rico', 'warm spices': 'especias cálidas', 'golden spices': 'especias doradas', 'passion fruit': 'maracuyá', 'jasmine grandiflorum': 'jazmín grandiflorum', 'pink jasmine': 'jazmín rosa', 'wild lavender': 'lavanda silvestre', 'raspberry liqueur': 'licor de frambuesa', 'spanish labdanum': 'láudano español', 'pink marshmallow': 'malvavisco rosa', 'solar mandarin': 'mandarina solar', 'cocoa butter': 'manteca de cacao', 'citrus notes': 'notas cítricas', 'floral notes': 'notas florales', 'coconut nectar': 'néctar de coco', 'amber resin': 'resina de ámbar', 'black truffle': 'trufa negra', 'refined amber': 'ámbar refinado', cyclamen: 'ciclamen', 'indian patchouli': 'pachulí indio', 'may rose': 'rosa de mayo', mignonette: 'reseda', 'ylang-ylang': 'ilang ilang', yuzu: 'yuzu'
 };
 
 export function notaTxt(n) {

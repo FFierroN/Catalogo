@@ -17,7 +17,8 @@ const COLOR = {
   soapy: ['#cfe8ef', D], lactonic: ['#f4ead8', D], animalic: ['#7a4a3a', L], aldehydic: ['#dfe6ea', D],
   alcohol: ['#c9b27a', D], whiskey: ['#b8782e', L], cannabis: ['#6f9a45', L], cherry: ['#b3203f', L],
   mineral: ['#a9b4ba', D], mossy: ['#5f7a3a', L], ozonic: ['#b9e0ee', D], tropical: ['#f08f3c', D],
-  tuberose: ['#f1dde6', D], violet: ['#8b5fbf', L]
+  tuberose: ['#f1dde6', D], violet: ['#8b5fbf', L],
+  balsamic: ['#a0603c', L], gourmand: ['#c98a52', D], solar: ['#f6c342', D]
 };
 
 const ES = {
@@ -31,7 +32,8 @@ const ES = {
   sweet: 'dulce', tobacco: 'tabaco', vanilla: 'vainilla', 'warm spicy': 'especiado cálido',
   'white floral': 'floral blanco', woody: 'amaderado', 'yellow floral': 'floral amarillo',
   alcohol: 'alcohol', whiskey: 'whisky', cannabis: 'cannabis', cherry: 'cereza', mineral: 'mineral',
-  mossy: 'musgoso', ozonic: 'ozónico', tropical: 'tropical', tuberose: 'nardo', violet: 'violeta'
+  mossy: 'musgoso', ozonic: 'ozónico', tropical: 'tropical', tuberose: 'nardo', violet: 'violeta',
+  balsamic: 'balsámico', gourmand: 'gourmand', solar: 'solar'
 };
 
 export function acordeNombre(a) {
