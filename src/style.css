@@ -209,7 +209,11 @@ select {
   background: #25d366; color: #fff; font-weight: 600; text-decoration: none;
 }
 .wa-btn svg { width: 1.3rem; height: 1.3rem; flex: none; }
-.wa-slide { margin-top: 0.7rem; }
+.wa-slide {
+  position: absolute; top: calc(var(--safe-top) + 5.3rem + 2.75rem); right: 1.1rem;
+  width: 2.75rem; height: 2.75rem; display: grid; place-items: center; color: var(--ink); border-radius: 50%;
+}
+.wa-slide svg { width: 1.5rem; height: 1.5rem; }
 .wa-ficha { margin-bottom: 0.6rem; }
 @media (max-width: 359px) { .btn-barra { padding: 0 0.8rem; } .barra { padding-inline: 0.6rem; } }
 @media (max-width: 359px) {

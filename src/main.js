@@ -133,12 +133,12 @@ function slide(p) {
   <section class="slide" aria-label="${esc(nombre)}">
     <a class="slide-foto" href="#/perfume/${encodeURIComponent(p.id)}" aria-label="${esc(t('ver_ficha', nombre))}">${arte(p)}</a>
     ${botonFav(p)}
+    <a class="wa-slide" href="${esc(waPerfume(p))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('wa_cotizar'))}" title="${esc(t('wa_cotizar'))}">${WA_ICONO}</a>
     <div class="slide-texto">
       <p class="marca">${esc(p.brand)}</p>
       <h2 class="nombre">${esc(p.name)}</h2>
       ${ver ? `<p class="version">${esc(ver)}</p>` : ''}
       <p class="numero">${esc(t('num'))} ${esc(p.codigo)}</p>
-      ${botonWaPerfume(p, 'wa-slide')}
     </div>
   </section>`;
 }
