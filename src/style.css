@@ -224,3 +224,18 @@ select {
 }
 
 .etiquetas li.etiqueta-acorde { background: var(--bg); color: var(--fg); border-color: rgba(0, 0, 0, 0.14); font-weight: 600; }
+
+/* ---------- Ficha: foto a la izquierda, acordes y notas a la derecha ---------- */
+.hero { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.25fr); gap: 0.9rem; align-items: center; margin: 0.25rem 0 1.25rem; }
+.hero.sin-datos { grid-template-columns: 1fr; }
+.hero .detalle-arte { height: min(52vw, 15rem); margin: 0; }
+.hero.sin-datos .detalle-arte { height: min(78vw, 24rem); }
+.hero-datos { min-width: 0; }
+.detalle h2.lateral { font-size: 1.25rem; margin: 0 0 0.45rem; }
+.hero-datos .etiquetas { margin: 0 0 0.9rem; gap: 0.3rem; }
+.hero-datos .etiquetas li { padding: 0.15rem 0.6rem; font-size: 0.85rem; }
+.hero-datos .capas { gap: 0.4rem; margin-bottom: 0; }
+.hero-datos .capa { grid-template-columns: 0.45rem 1fr; gap: 0.55rem; padding: 0.5rem 0.6rem; border-radius: 10px; }
+.hero-datos .capa h3 { font-size: 0.85rem; margin-bottom: 0.2rem; }
+.hero-datos .capa ul { gap: 0.25rem; }
+.hero-datos .capa li { padding: 0.1rem 0.5rem; font-size: 0.8rem; }

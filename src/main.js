@@ -379,7 +379,18 @@ function vistaDetalle(id) {
   app.innerHTML = `
   <main class="detalle" style="--liquido:${colorDe(p)}">
     ${barraSup}
-    <div class="detalle-arte">${arte(p, true)}</div>
+    <div class="hero${(p.accords?.length || tieneNotas) ? '' : ' sin-datos'}">
+      <div class="detalle-arte">${arte(p, true)}</div>
+      <div class="hero-datos">
+    ${p.accords?.length ? `<h2 class="lateral">${esc(t('acordes'))}</h2><ul class="etiquetas">${p.accords.map((a) => { const [bg, fg] = acordeColor(a); return `<li class="etiqueta-acorde" style="--bg:${bg};--fg:${fg}">${esc(acordeNombre(a))}</li>`; }).join('')}</ul>` : ''}
+    ${tieneNotas ? `<h2 class="lateral">${esc(t('notas'))}</h2>
+    <div class="capas">
+      ${capa(t('salida'), p.notes_top, 30)}
+      ${capa(t('corazon'), p.notes_heart, 60)}
+      ${capa(t('fondo'), p.notes_base, 100)}
+    </div>` : ''}
+      </div>
+    </div>
     <p class="marca">${esc(p.brand)}</p>
     <h1 class="nombre">${esc(p.name)}</h1>
     ${ver ? `<p class="version">${esc(ver)}</p>` : ''}
@@ -392,13 +403,6 @@ function vistaDetalle(id) {
       <div><dt>${esc(t('para'))}</dt><dd>${esc(generoTxt(p.gender))}</dd></div>
     </dl>
     ${p.usage_tags?.length ? `<h2>${esc(t('uso'))}</h2><ul class="etiquetas">${p.usage_tags.map((u) => `<li>${esc(usoTxt(u))}</li>`).join('')}</ul>` : ''}
-    ${p.accords?.length ? `<h2>${esc(t('acordes'))}</h2><ul class="etiquetas">${p.accords.map((a) => { const [bg, fg] = acordeColor(a); return `<li class="etiqueta-acorde" style="--bg:${bg};--fg:${fg}">${esc(acordeNombre(a))}</li>`; }).join('')}</ul>` : ''}
-    ${tieneNotas ? `<h2>${esc(t('notas'))}</h2>
-    <div class="capas">
-      ${capa(t('salida'), p.notes_top, 30)}
-      ${capa(t('corazon'), p.notes_heart, 60)}
-      ${capa(t('fondo'), p.notes_base, 100)}
-    </div>` : ''}
     ${fragantica ? `<a class="boton enlace" href="${esc(fragantica)}" target="_blank" rel="noopener noreferrer">${esc(t('fragantica'))}</a>` : ''}
     ${botonWaPerfume(p, 'wa-ficha')}
     <button id="fav-detalle" class="boton secundario" aria-pressed="${fav}">${esc(fav ? t('fav_quitar') : t('fav_guardar'))}</button>
