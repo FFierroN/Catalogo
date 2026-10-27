@@ -239,3 +239,9 @@ select {
 .hero-datos .capa h3 { font-size: 0.85rem; margin-bottom: 0.2rem; }
 .hero-datos .capa ul { gap: 0.25rem; }
 .hero-datos .capa li { padding: 0.1rem 0.5rem; font-size: 0.8rem; }
+
+.detalle .datos { margin-top: 0.5rem; }
+.detalle .marca { margin-top: 1.5rem; }
+.mas-detalles { margin-top: 1.75rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.mas-detalles h2 { font-size: 1.1rem; margin: 0 0 0.7rem; }
+.mas-detalles .boton.enlace { margin-bottom: 0; }

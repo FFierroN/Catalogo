@@ -51,7 +51,7 @@ const estado = {
   genero: 'Todos',
   uso: 'Todos',
   nota: 'Todas',
-  orden: 'marca',
+  orden: 'numero',
   soloFavs: false,
   favs: leerFavs(),
   indice: 0 // perfume que se está viendo, para volver al mismo lugar desde la ficha
@@ -391,21 +391,21 @@ function vistaDetalle(id) {
     </div>` : ''}
       </div>
     </div>
-    <p class="marca">${esc(p.brand)}</p>
-    <h1 class="nombre">${esc(p.name)}</h1>
-    ${ver ? `<p class="version">${esc(ver)}</p>` : ''}
-    <p class="numero">${esc(t('num'))} ${esc(p.codigo)}</p>
-    ${tienePrecio(p) ? `<p class="precio grande">${peso(p.price)}${p.size_ml ? ` <span>${esc(p.size_ml)} ml</span>` : ''}</p>` : ''}
-    ${p.description ? `<p class="descripcion">${esc(p.description)}</p>` : ''}
     <dl class="datos">
       <div><dt>${esc(t('familia'))}</dt><dd>${esc(familiaTxt(p.family))}</dd></div>
       <div><dt>${esc(t('concentracion'))}</dt><dd>${esc(p.concentration)}</dd></div>
       <div><dt>${esc(t('para'))}</dt><dd>${esc(generoTxt(p.gender))}</dd></div>
     </dl>
     ${p.usage_tags?.length ? `<h2>${esc(t('uso'))}</h2><ul class="etiquetas">${p.usage_tags.map((u) => `<li>${esc(usoTxt(u))}</li>`).join('')}</ul>` : ''}
-    ${fragantica ? `<a class="boton enlace" href="${esc(fragantica)}" target="_blank" rel="noopener noreferrer">${esc(t('fragantica'))}</a>` : ''}
+    <p class="marca">${esc(p.brand)}</p>
+    <h1 class="nombre">${esc(p.name)}</h1>
+    ${ver ? `<p class="version">${esc(ver)}</p>` : ''}
+    <p class="numero">${esc(t('num'))} ${esc(p.codigo)}</p>
+    ${tienePrecio(p) ? `<p class="precio grande">${peso(p.price)}${p.size_ml ? ` <span>${esc(p.size_ml)} ml</span>` : ''}</p>` : ''}
+    ${p.description ? `<p class="descripcion">${esc(p.description)}</p>` : ''}
     ${botonWaPerfume(p, 'wa-ficha')}
     <button id="fav-detalle" class="boton secundario" aria-pressed="${fav}">${esc(fav ? t('fav_quitar') : t('fav_guardar'))}</button>
+    ${fragantica ? `<section class="mas-detalles"><h2>${esc(t('mas_detalles'))}</h2><a class="boton enlace" href="${esc(fragantica)}" target="_blank" rel="noopener noreferrer">${esc(t('fragantica'))}</a></section>` : ''}
   </main>`;
   document.querySelector('#fav-detalle').addEventListener('click', () => {
     alternarFav(p.id);
