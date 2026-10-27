@@ -12,7 +12,7 @@ import { cargarPerfumes } from './data.js';
 import { frasco, colorDe } from './bottle.js';
 import {
   t, getIdioma, setIdioma, aplicarIdioma,
-  palabras, waLink, canonNota, palabraTxt, familiaTxt, usoTxt, generoTxt, bandera
+  palabras, waLink, WA_NUMERO, WA_NUMERO2, canonNota, palabraTxt, familiaTxt, usoTxt, generoTxt, bandera
 } from './i18n.js';
 
 registerSW({ immediate: true });
@@ -121,13 +121,41 @@ function botonFav(p) {
 }
 
 // Tarjeta: foto, marca, nombre, versión (si no es Standard) y número
-function waPerfume(p) {
+function waPerfume(p, numero = WA_NUMERO) {
   const n = [p.brand, p.name, versionTxt(p)].filter(Boolean).join(' ');
-  return waLink(t('wa_msg_perfume', n, p.codigo));
+  return waLink(t('wa_msg_perfume', n, p.codigo), numero);
 }
-function botonWaPerfume(p, clase = '') {
-  return `<a class="wa-btn ${clase}" href="${esc(waPerfume(p))}" target="_blank" rel="noopener noreferrer">${WA_ICONO}<span>${esc(t('wa_cotizar'))}</span></a>`;
+function botonesWaFicha(p) {
+  return `<div class="wa-dobles">
+    <a class="wa-btn wa-ficha" href="${esc(waPerfume(p))}" target="_blank" rel="noopener noreferrer">${WA_ICONO}<span>${esc(t('wa_op1'))}</span></a>
+    <a class="wa-btn wa-ficha" href="${esc(waPerfume(p, WA_NUMERO2))}" target="_blank" rel="noopener noreferrer">${WA_ICONO}<span>${esc(t('wa_op2'))}</span></a>
+  </div>`;
 }
+const ICO = (d) => `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
+const I_LUNA = ICO('<path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/>');
+const I_SOL = ICO('<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>');
+const I_CORAZON = ICO('<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>');
+const I_HOJA = ICO('<path d="M5 19c0-9 5-14 14-14 0 9-5 14-14 14zM5 19l8-8"/>');
+const I_COPO = ICO('<path d="M12 3v18M5 7l14 10M19 7L5 17"/>');
+const I_MALETIN = ICO('<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/>');
+const I_ESTRELLA = ICO('<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/>');
+const I_COPA = ICO('<path d="M7 3h10l-1 7a4 4 0 0 1-8 0zM12 14v7M8 21h8"/>');
+const I_ONDA = ICO('<path d="M3 15c3-4 6 4 9 0s6 4 9 0M3 9c3-4 6 4 9 0s6 4 9 0"/>');
+const I_GOTA = ICO('<path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/>');
+const I_BOLT = ICO('<path d="M13 2L5 13h6l-1 9 8-11h-6z"/>');
+const I_BASE = ICO('<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>');
+const ICONO_USO = {
+  'Noche': I_LUNA, 'Noche de Verano': I_LUNA, 'Salidas': I_LUNA, 'Día y Noche': I_SOL,
+  'Día': I_SOL, 'Verano': I_SOL, 'Playa': I_ONDA, 'Lluvia': I_GOTA,
+  'Citas': I_CORAZON, 'Seducción': I_CORAZON,
+  'Primavera': I_HOJA, 'Otoño': I_HOJA, 'Fresco': I_HOJA,
+  'Invierno': I_COPO, 'Frío': I_COPO, 'Clima Frío': I_COPO,
+  'Oficina': I_MALETIN, 'Profesional': I_MALETIN, 'Formal': I_MALETIN,
+  'Fiesta': I_COPA, 'Gala': I_COPA, 'Eventos': I_COPA, 'Eventos Elegantes': I_COPA, 'Eventos Especiales': I_COPA, 'Eventos Exclusivos': I_COPA, 'Eventos Modernos': I_COPA,
+  'Deporte': I_BOLT, 'Intenso': I_BOLT, 'Impacto': I_BOLT,
+  'Diario': I_BASE, 'Todo el año': I_BASE, 'Versátil': I_BASE, 'Casual': I_BASE,
+};
+const iconoUso = (u) => ICONO_USO[u] || I_ESTRELLA;
 
 function slide(p) {
   const ver = versionTxt(p);
@@ -136,7 +164,8 @@ function slide(p) {
   <section class="slide" aria-label="${esc(nombre)}">
     <a class="slide-foto" href="#/perfume/${encodeURIComponent(p.id)}" aria-label="${esc(t('ver_ficha', nombre))}">${arte(p)}</a>
     ${botonFav(p)}
-    <a class="wa-slide" href="${esc(waPerfume(p))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('wa_cotizar'))}" title="${esc(t('wa_cotizar'))}"><img src="${waNegro}" alt="" width="28" height="28" /></a>
+    <a class="wa-slide wa-slide-2" data-n="2" href="${esc(waPerfume(p, WA_NUMERO2))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('wa_op2'))}" title="${esc(t('wa_op2'))}"><img src="${waNegro}" alt="" width="28" height="28" /></a>
+    <a class="wa-slide wa-slide-1" data-n="1" href="${esc(waPerfume(p))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('wa_op1'))}" title="${esc(t('wa_op1'))}"><img src="${waNegro}" alt="" width="28" height="28" /></a>
     <div class="slide-texto">
       <p class="marca">${esc(p.brand)}</p>
       <h2 class="nombre">${esc(p.name)}</h2>
@@ -375,10 +404,10 @@ function vistaDetalle(id) {
   const fav = estado.favs.has(p.id);
   const ver = versionTxt(p);
   const tieneNotas = [p.notes_top, p.notes_heart, p.notes_base].some((n) => n?.length);
-  const fragantica = urlFragantica(p.fragrantica_url);
   app.innerHTML = `
   <main class="detalle" style="--liquido:${colorDe(p)}">
     ${barraSup}
+    <h1 class="titulo-ficha"><span class="tf-marca">${esc(p.brand)}</span> <span class="tf-nombre">${esc(p.name)}</span>${ver ? ` <span class="tf-version">${esc(ver)}</span>` : ''}</h1>
     <div class="hero${(p.accords?.length || tieneNotas) ? '' : ' sin-datos'}">
       <div class="detalle-arte">${arte(p, true)}</div>
       <div class="hero-datos">
@@ -396,16 +425,11 @@ function vistaDetalle(id) {
       <div><dt>${esc(t('concentracion'))}</dt><dd>${esc(p.concentration)}</dd></div>
       <div><dt>${esc(t('para'))}</dt><dd>${esc(generoTxt(p.gender))}</dd></div>
     </dl>
-    ${p.usage_tags?.length ? `<h2>${esc(t('uso'))}</h2><ul class="etiquetas">${p.usage_tags.map((u) => `<li>${esc(usoTxt(u))}</li>`).join('')}</ul>` : ''}
-    <p class="marca">${esc(p.brand)}</p>
-    <h1 class="nombre">${esc(p.name)}</h1>
-    ${ver ? `<p class="version">${esc(ver)}</p>` : ''}
-    <p class="numero">${esc(t('num'))} ${esc(p.codigo)}</p>
+    ${p.usage_tags?.length ? `<h2>${esc(t('uso'))}</h2><ul class="etiquetas">${p.usage_tags.map((u) => `<li>${iconoUso(u)}${esc(usoTxt(u))}</li>`).join('')}</ul>` : ''}
     ${tienePrecio(p) ? `<p class="precio grande">${peso(p.price)}${p.size_ml ? ` <span>${esc(p.size_ml)} ml</span>` : ''}</p>` : ''}
     ${p.description ? `<p class="descripcion">${esc(p.description)}</p>` : ''}
-    ${botonWaPerfume(p, 'wa-ficha')}
+    ${botonesWaFicha(p)}
     <button id="fav-detalle" class="boton secundario" aria-pressed="${fav}">${esc(fav ? t('fav_quitar') : t('fav_guardar'))}</button>
-    ${fragantica ? `<section class="mas-detalles"><h2>${esc(t('mas_detalles'))}</h2><a class="boton enlace" href="${esc(fragantica)}" target="_blank" rel="noopener noreferrer">${esc(t('fragantica'))}</a></section>` : ''}
   </main>`;
   document.querySelector('#fav-detalle').addEventListener('click', () => {
     alternarFav(p.id);

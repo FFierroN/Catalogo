@@ -92,7 +92,7 @@ button { font: inherit; color: inherit; }
 .vacio, .cargando { padding: 2rem 1rem; color: var(--muted); text-align: center; }
 
 .fav {
-  position: absolute; top: calc(var(--safe-top) + 5.3rem); right: 1.1rem;
+  position: absolute; top: calc(var(--safe-top) + 5.3rem); left: 1.1rem;
   width: 2.75rem; height: 2.75rem; display: grid; place-items: center;
   background: transparent; border: 0; border-radius: 50%; cursor: pointer;
 }
@@ -209,11 +209,22 @@ select {
 }
 .wa-btn svg { width: 1.3rem; height: 1.3rem; flex: none; }
 .wa-slide {
-  position: absolute; top: calc(var(--safe-top) + 5.3rem + 2.75rem); right: 1.1rem;
+  position: absolute; top: calc(var(--safe-top) + 5.3rem); right: 1.1rem;
   width: 2.75rem; height: 2.75rem; display: grid; place-items: center; color: var(--ink); border-radius: 50%;
 }
+.wa-slide-1 { top: calc(var(--safe-top) + 5.3rem + 2.75rem); }
+.wa-slide::after {
+  content: attr(data-n); position: absolute; right: 0.15rem; bottom: 0.2rem;
+  min-width: 1rem; height: 1rem; border-radius: 999px; background: var(--ink); color: var(--bg, #fff);
+  font-size: 0.65rem; font-weight: 700; line-height: 1rem; text-align: center;
+}
 .wa-slide img { width: 1.75rem; height: 1.75rem; display: block; }
-.wa-ficha { display: flex; width: 100%; min-height: 3rem; border-radius: 12px; margin-bottom: 0.6rem; }
+.wa-dobles { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-bottom: 0.6rem; }
+.wa-ficha { display: flex; min-height: 3rem; border-radius: 12px; padding: 0 0.5rem; gap: 0.4rem; font-size: 0.92rem; text-align: center; }
+.titulo-ficha { margin: 0.9rem 0 1rem; text-align: center; line-height: 1.1; font-family: var(--serif); font-weight: 600; font-size: clamp(1.5rem, 7vw, 2rem); text-wrap: balance; }
+.tf-marca { font-style: italic; font-weight: 500; color: var(--muted); }
+.tf-version { display: block; font-size: 0.95rem; font-weight: 400; color: var(--muted); margin-top: 0.2rem; }
+.etiquetas li .ico { width: 1.05rem; height: 1.05rem; vertical-align: -0.2em; margin-right: 0.35rem; }
 @media (max-width: 359px) { .btn-barra { padding: 0 0.8rem; } .barra { padding-inline: 0.6rem; } }
 @media (max-width: 359px) {
   .barra { gap: 0.3rem; }

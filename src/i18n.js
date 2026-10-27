@@ -48,6 +48,8 @@ const TEXTOS = {
     mas_detalles: 'Más detalles sobre el perfume:',
     wa_cotizar: 'Cotizar por WhatsApp',
     wa_consulta: 'Consultar por WhatsApp',
+    wa_op1: 'Cotizar Opción 1',
+    wa_op2: 'Cotizar Opción 2',
     wa_msg_perfume: (n, num) => `Hola, estuve viendo el catálogo y me gustaría cotizar el perfume "${n}" (N° ${num}). ¿Me podrían dar más información?`,
     wa_msg_general: 'Hola, estuve viendo el catálogo y tengo una consulta.',
     no_encontrado: 'No encontramos ese perfume.',
@@ -101,6 +103,8 @@ const TEXTOS = {
     mas_detalles: 'More details about this perfume:',
     wa_cotizar: 'Get a quote on WhatsApp',
     wa_consulta: 'Ask on WhatsApp',
+    wa_op1: 'Quote Option 1',
+    wa_op2: 'Quote Option 2',
     wa_msg_perfume: (n, num) => `Hi, I was browsing the catalog and I'd like a quote for the perfume "${n}" (No. ${num}). Could you give me more information?`,
     wa_msg_general: 'Hi, I was browsing the catalog and I have a question.',
     no_encontrado: "We couldn't find that perfume.",
@@ -197,6 +201,7 @@ export function bandera(l) {
 
 // ---------- WhatsApp (número de prueba) ----------
 export const WA_NUMERO = '15416300493';
-export function waLink(mensaje) {
-  return `https://wa.me/${WA_NUMERO}?text=${encodeURIComponent(mensaje)}`;
+export const WA_NUMERO2 = '13055405117';
+export function waLink(mensaje, numero = WA_NUMERO) {
+  return `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
 }
