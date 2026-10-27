@@ -221,7 +221,7 @@ function vistaLista() {
   app.innerHTML = `
   <header class="barra">
     <div class="barra-izq">
-      <span class="logo">${esc(t('titulo'))}</span>
+      <button type="button" id="logo-inicio" class="logo" aria-label="${esc(t('ir_inicio'))}" title="${esc(t('ir_inicio'))}">${esc(t('titulo'))}</button>
       ${selectorIdioma()}
     </div>
     <a class="wa-circulo" href="${esc(waLink(t('wa_msg_general')))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('wa_consulta'))}" title="${esc(t('wa_consulta'))}"><img src="${waNegro}" alt="" width="28" height="28" /></a>
@@ -230,6 +230,7 @@ function vistaLista() {
   </header>
   ${estado.guardado ? `<p class="aviso" role="status">${esc(t('sin_conexion'))}</p>` : ''}
   <div id="pager" class="pager" tabindex="0" aria-label="${esc(t('catalogo_aria'))}"></div>
+  <div id="riel" class="riel" aria-hidden="true"><div class="riel-linea"></div><div id="riel-pulgar" class="riel-pulgar"></div><div id="riel-burbuja" class="riel-burbuja" hidden></div></div>
   <p id="contador" class="contador" aria-live="polite"></p>
 
   <dialog id="filtros" aria-labelledby="t-filtros">
@@ -285,6 +286,34 @@ function vistaLista() {
   // Vuelve al perfume en el que estabas antes de abrir la ficha o cambiar de idioma
   pager.scrollTop = estado.indice * pager.clientHeight;
   actualizarContador();
+
+  document.querySelector('#logo-inicio').addEventListener('click', () => {
+    pager.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // Riel lateral: arrastrar para recorrer todos los perfumes rápidamente
+  const riel = document.querySelector('#riel');
+  const burbuja = document.querySelector('#riel-burbuja');
+  const irA = (clientY) => {
+    const slides = pager.querySelectorAll('.slide:not(.vacio-slide)');
+    if (!slides.length) return;
+    const r = riel.getBoundingClientRect();
+    const f = Math.min(1, Math.max(0, (clientY - r.top) / r.height));
+    const i = Math.round(f * (slides.length - 1));
+    pager.style.scrollSnapType = 'none';
+    pager.scrollTop = i * pager.clientHeight;
+    burbuja.textContent = `${i + 1} · ${slides[i].getAttribute('aria-label') || ''}`;
+    burbuja.style.top = `${f * 100}%`;
+    burbuja.hidden = false;
+  };
+  const soltar = () => {
+    burbuja.hidden = true;
+    pager.style.scrollSnapType = '';
+    pager.scrollTop = Math.round(pager.scrollTop / pager.clientHeight) * pager.clientHeight;
+  };
+  riel.addEventListener('pointerdown', (e) => { riel.setPointerCapture(e.pointerId); riel.dataset.arrastrando = '1'; irA(e.clientY); });
+  riel.addEventListener('pointermove', (e) => { if (riel.dataset.arrastrando) irA(e.clientY); });
+  ['pointerup', 'pointercancel'].forEach((ev) => riel.addEventListener(ev, () => { delete riel.dataset.arrastrando; soltar(); }));
 
   let pendiente = false;
   pager.addEventListener('scroll', () => {
@@ -380,6 +409,11 @@ function actualizarContador() {
   if (!el) return;
   const total = document.querySelectorAll('#pager .slide:not(.vacio-slide)').length;
   el.textContent = total ? t('contador', Math.min(estado.indice + 1, total), total) : t('sin_resultados');
+  const pulgar = document.querySelector('#riel-pulgar');
+  if (pulgar) {
+    pulgar.style.top = total > 1 ? `${(Math.min(estado.indice, total - 1) / (total - 1)) * 100}%` : '0%';
+    document.querySelector('#riel').hidden = total < 2;
+  }
 }
 
 // ---------- vista: detalle ----------

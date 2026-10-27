@@ -36,7 +36,7 @@ button { font: inherit; color: inherit; }
   padding: calc(var(--safe-top) + 0.5rem) 1rem 0.5rem;
   background: linear-gradient(#fff 70%, rgba(255, 255, 255, 0));
 }
-.logo { font-family: var(--serif); font-weight: 600; font-size: 1.2rem; line-height: 1.02; letter-spacing: 0.01em; }
+.logo { background: none; border: 0; padding: 0; margin: 0; color: inherit; text-align: left; cursor: pointer; font-family: var(--serif); font-weight: 600; font-size: 1.2rem; line-height: 1.02; letter-spacing: 0.01em; }
 .barra-izq { display: grid; gap: 0.3rem; justify-items: start; }
 .contador {
   position: fixed; z-index: 3; left: 0; right: 0; bottom: calc(var(--safe-bottom) + 0.4rem);
@@ -256,3 +256,21 @@ select {
 .mas-detalles { margin-top: 1.75rem; padding-top: 1rem; border-top: 1px solid var(--line); }
 .mas-detalles h2 { font-size: 1.1rem; margin: 0 0 0.7rem; }
 .mas-detalles .boton.enlace { margin-bottom: 0; }
+
+/* Riel lateral de navegación rápida */
+.riel {
+  position: fixed; z-index: 4; left: 0; width: 2.25rem;
+  top: calc(var(--safe-top) + 9.5rem); bottom: calc(var(--safe-bottom) + 2.6rem);
+  touch-action: none; cursor: grab;
+}
+.riel[hidden] { display: none; }
+.riel-linea { position: absolute; left: 1.05rem; top: 0; bottom: 0; width: 3px; border-radius: 3px; background: var(--line); }
+.riel-pulgar {
+  position: absolute; left: 0.55rem; width: 1.1rem; height: 0.5rem; margin-top: -0.25rem;
+  border-radius: 999px; background: var(--ink); pointer-events: none;
+}
+.riel-burbuja {
+  position: absolute; left: 2.6rem; transform: translateY(-50%); max-width: 14rem;
+  padding: 0.35rem 0.7rem; border-radius: 10px; background: var(--ink); color: #fff;
+  font-size: 0.85rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; pointer-events: none;
+}
