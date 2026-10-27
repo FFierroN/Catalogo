@@ -5,7 +5,7 @@ import '@fontsource/figtree/400.css';
 import '@fontsource/figtree/600.css';
 import './style.css';
 import { registerSW } from 'virtual:pwa-register';
-import { graficoAcordes } from './acordes.js';
+import { acordeNombre } from './acordes.js';
 import waNegro from './assets/whatsapp-negro.png';
 import { cargarPerfumes } from './data.js';
 import { frasco, colorDe } from './bottle.js';
@@ -378,10 +378,7 @@ function vistaDetalle(id) {
   app.innerHTML = `
   <main class="detalle" style="--liquido:${colorDe(p)}">
     ${barraSup}
-    <div class="hero${p.accords?.length ? '' : ' sin-acordes'}">
-      <div class="detalle-arte">${arte(p, true)}</div>
-      ${p.accords?.length ? `<div class="acordes-caja"><p class="acordes-titulo">${esc(t('acordes'))}</p><ul class="acordes" aria-label="${esc(t('acordes'))}">${graficoAcordes(p.accords, esc)}</ul></div>` : ''}
-    </div>
+    <div class="detalle-arte">${arte(p, true)}</div>
     <p class="marca">${esc(p.brand)}</p>
     <h1 class="nombre">${esc(p.name)}</h1>
     ${ver ? `<p class="version">${esc(ver)}</p>` : ''}
@@ -394,6 +391,7 @@ function vistaDetalle(id) {
       <div><dt>${esc(t('para'))}</dt><dd>${esc(generoTxt(p.gender))}</dd></div>
     </dl>
     ${p.usage_tags?.length ? `<h2>${esc(t('uso'))}</h2><ul class="etiquetas">${p.usage_tags.map((u) => `<li>${esc(usoTxt(u))}</li>`).join('')}</ul>` : ''}
+    ${p.accords?.length ? `<h2>${esc(t('acordes'))}</h2><ul class="etiquetas">${p.accords.map((a) => `<li>${esc(acordeNombre(a))}</li>`).join('')}</ul>` : ''}
     ${tieneNotas ? `<h2>${esc(t('notas'))}</h2>
     <div class="capas">
       ${capa(t('salida'), p.notes_top, 30)}
