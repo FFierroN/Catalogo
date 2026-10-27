@@ -5,6 +5,7 @@ import '@fontsource/figtree/400.css';
 import '@fontsource/figtree/600.css';
 import './style.css';
 import { registerSW } from 'virtual:pwa-register';
+import { graficoAcordes } from './acordes.js';
 import waNegro from './assets/whatsapp-negro.png';
 import { cargarPerfumes } from './data.js';
 import { frasco, colorDe } from './bottle.js';
@@ -189,10 +190,10 @@ function vistaLista() {
   app.innerHTML = `
   <header class="barra">
     <div class="barra-izq">
-      <span class="logo">Bruma</span>
+      <span class="logo">${esc(t('titulo'))}</span>
       ${selectorIdioma()}
     </div>
-    <a class="wa-circulo" href="${esc(waLink(t('wa_msg_general')))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('wa_consulta'))}" title="${esc(t('wa_consulta'))}">${WA_ICONO}</a>
+    <a class="wa-circulo" href="${esc(waLink(t('wa_msg_general')))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('wa_consulta'))}" title="${esc(t('wa_consulta'))}"><img src="${waNegro}" alt="" width="28" height="28" /></a>
     <button id="abrir-orden" class="btn-barra" aria-haspopup="dialog">${esc(t('orden'))}</button>
     <button id="abrir" class="btn-barra" aria-haspopup="dialog">${esc(t('filtros'))}<span id="badge" class="badge" hidden></span></button>
   </header>
@@ -358,7 +359,7 @@ function capa(titulo, notas, tono) {
     <div class="capa-barra"></div>
     <div>
       <h3>${esc(titulo)}</h3>
-      <ul>${notas.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>
+      <ul>${notas.map((n) => `<li>${esc(n.charAt(0).toUpperCase() + n.slice(1))}</li>`).join('')}</ul>
     </div>
   </div>`;
 }
@@ -377,7 +378,10 @@ function vistaDetalle(id) {
   app.innerHTML = `
   <main class="detalle" style="--liquido:${colorDe(p)}">
     ${barraSup}
-    <div class="detalle-arte">${arte(p, true)}</div>
+    <div class="hero${p.accords?.length ? '' : ' sin-acordes'}">
+      <div class="detalle-arte">${arte(p, true)}</div>
+      ${p.accords?.length ? `<div class="acordes-caja"><p class="acordes-titulo">${esc(t('acordes'))}</p><ul class="acordes" aria-label="${esc(t('acordes'))}">${graficoAcordes(p.accords, esc)}</ul></div>` : ''}
+    </div>
     <p class="marca">${esc(p.brand)}</p>
     <h1 class="nombre">${esc(p.name)}</h1>
     ${ver ? `<p class="version">${esc(ver)}</p>` : ''}

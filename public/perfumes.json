@@ -17,12 +17,34 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "calabrian bergamot",
+   "pepper"
+  ],
+  "notes_heart": [
+   "sichuan pepper",
+   "lavender",
+   "pink pepper",
+   "vetiver",
+   "patchouli",
+   "geranium",
+   "elemi"
+  ],
+  "notes_base": [
+   "ambroxan",
+   "cedar",
+   "labdanum"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/1.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/dior/sauvage-31861.html",
+  "accords": [
+   "fresh spicy",
+   "amber",
+   "citrus",
+   "aromatic",
+   "musky"
+  ]
  },
  {
   "id": "2",
@@ -43,12 +65,37 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "grapefruit",
+   "lemon",
+   "mint",
+   "pink pepper"
+  ],
+  "notes_heart": [
+   "ginger",
+   "nutmeg",
+   "jasmine",
+   "iso e super"
+  ],
+  "notes_base": [
+   "incense",
+   "vetiver",
+   "cedar",
+   "sandalwood",
+   "patchouli",
+   "labdanum",
+   "white musk"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/2.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/chanel/bleu-de-chanel-9099.html",
+  "accords": [
+   "citrus",
+   "woody",
+   "warm spicy",
+   "aromatic",
+   "amber"
+  ]
  },
  {
   "id": "3",
@@ -68,12 +115,28 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "saffron",
+   "jasmine"
+  ],
+  "notes_heart": [
+   "amberwood",
+   "ambergris"
+  ],
+  "notes_base": [
+   "fir resin",
+   "cedar"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/3.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/maison-francis-kurkdjian/baccarat-rouge-540-33519.html",
+  "accords": [
+   "woody",
+   "amber",
+   "warm spicy",
+   "fresh spicy",
+   "aromatic"
+  ]
  },
  {
   "id": "4",
@@ -98,7 +161,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/4.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "5",
@@ -119,12 +183,33 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "lavender",
+   "mandarin orange",
+   "black currant",
+   "petitgrain"
+  ],
+  "notes_heart": [
+   "lavender",
+   "orange blossom",
+   "jasmine"
+  ],
+  "notes_base": [
+   "madagascar vanilla",
+   "musk",
+   "cedar",
+   "ambergris"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/5.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/yves-saint-laurent/libre-56077.html",
+  "accords": [
+   "white floral",
+   "citrus",
+   "lavender",
+   "vanilla",
+   "aromatic"
+  ]
  },
  {
   "id": "6",
@@ -145,12 +230,33 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "mint",
+   "green apple",
+   "lemon"
+  ],
+  "notes_heart": [
+   "tonka bean",
+   "ambroxan",
+   "geranium"
+  ],
+  "notes_base": [
+   "madagascar vanilla",
+   "virginian cedar",
+   "atlas cedar",
+   "vetiver",
+   "oakmoss"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/6.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/versace/eros-16657.html",
+  "accords": [
+   "vanilla",
+   "aromatic",
+   "green",
+   "fresh spicy",
+   "amber"
+  ]
  },
  {
   "id": "7",
@@ -175,7 +281,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/7.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "8",
@@ -201,7 +308,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/8.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "9",
@@ -227,7 +335,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/9.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "10",
@@ -248,12 +357,32 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "blood orange",
+   "grapefruit",
+   "mint"
+  ],
+  "notes_heart": [
+   "cinnamon",
+   "spices",
+   "rose"
+  ],
+  "notes_base": [
+   "leather",
+   "amber",
+   "white woods",
+   "patchouli"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/10.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/paco-rabanne/1-million-23908.html",
+  "accords": [
+   "citrus",
+   "warm spicy",
+   "cinnamon",
+   "leather",
+   "woody"
+  ]
  },
  {
   "id": "11",
@@ -274,12 +403,29 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "sicilian orange",
+   "calabrian bergamot",
+   "sicilian lemon"
+  ],
+  "notes_heart": [
+   "fruits"
+  ],
+  "notes_base": [
+   "white musk",
+   "madagascar vanilla",
+   "amber"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/11.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/xerjoff/erba-pura-55157.html",
+  "accords": [
+   "fruity",
+   "citrus",
+   "sweet",
+   "musky",
+   "powdery"
+  ]
  },
  {
   "id": "12",
@@ -300,12 +446,29 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "lavender",
+   "mint"
+  ],
+  "notes_heart": [
+   "vanilla",
+   "benzoin"
+  ],
+  "notes_base": [
+   "honey",
+   "tonka bean",
+   "tobacco"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/12.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/jean-paul-gaultier/le-male-elixir-81642.html",
+  "accords": [
+   "vanilla",
+   "sweet",
+   "honey",
+   "amber",
+   "aromatic"
+  ]
  },
  {
   "id": "13",
@@ -326,12 +489,35 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "apple",
+   "lavender",
+   "bergamot",
+   "mandarin orange"
+  ],
+  "notes_heart": [
+   "geranium",
+   "violet",
+   "jasmine"
+  ],
+  "notes_base": [
+   "vanilla",
+   "cardamom",
+   "sandalwood",
+   "pepper",
+   "guaiac wood",
+   "patchouli"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/13.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/parfums-de-marly/layton-39314.html",
+  "accords": [
+   "warm spicy",
+   "vanilla",
+   "fresh spicy",
+   "woody",
+   "aromatic"
+  ]
  },
  {
   "id": "14",
@@ -352,12 +538,28 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "sicilian mandarin"
+  ],
+  "notes_heart": [
+   "pink peony",
+   "damask rose",
+   "apricot",
+   "peach"
+  ],
+  "notes_base": [
+   "white musk"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/14.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/dior/miss-dior-blooming-bouquet-23280.html",
+  "accords": [
+   "floral",
+   "rose",
+   "fresh",
+   "fruity",
+   "musky"
+  ]
  },
  {
   "id": "15",
@@ -378,12 +580,36 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "orange",
+   "mandarin orange",
+   "bergamot",
+   "orange blossom"
+  ],
+  "notes_heart": [
+   "turkish rose",
+   "jasmine",
+   "mimosa",
+   "ylang-ylang"
+  ],
+  "notes_base": [
+   "patchouli",
+   "white musk",
+   "vanilla",
+   "vetiver",
+   "tonka bean",
+   "opoponax"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/15.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/chanel/coco-mademoiselle-611.html",
+  "accords": [
+   "citrus",
+   "woody",
+   "patchouli",
+   "sweet",
+   "white floral"
+  ]
  },
  {
   "id": "16",
@@ -409,7 +635,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/16.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "17",
@@ -430,12 +657,29 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "bitter almond",
+   "saffron"
+  ],
+  "notes_heart": [
+   "egyptian jasmine",
+   "cedar"
+  ],
+  "notes_base": [
+   "ambergris",
+   "woody notes",
+   "musk"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/17.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/maison-francis-kurkdjian/baccarat-rouge-540-extrait-de-parfum-46066.html",
+  "accords": [
+   "woody",
+   "almond",
+   "amber",
+   "warm spicy",
+   "animalic"
+  ]
  },
  {
   "id": "18",
@@ -461,7 +705,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/18.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "19",
@@ -482,12 +727,42 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "peony",
+   "musk vodka",
+   "pineapple",
+   "lemon",
+   "peach",
+   "banana leaf",
+   "violet"
+  ],
+  "notes_heart": [
+   "lily-of-the-valley",
+   "lily",
+   "hiacynth",
+   "jasmine",
+   "freesia",
+   "calone",
+   "ylang-ylang",
+   "rose"
+  ],
+  "notes_base": [
+   "musk",
+   "cedar",
+   "sandalwood",
+   "amber",
+   "styrax"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/19.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/giorgio-armani/acqua-di-gio-411.html",
+  "accords": [
+   "floral",
+   "fresh",
+   "white floral",
+   "green",
+   "rose"
+  ]
  },
  {
   "id": "20",
@@ -513,7 +788,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/20.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "21",
@@ -534,12 +810,30 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "bergamot",
+   "bergamot leaf"
+  ],
+  "notes_heart": [
+   "iris",
+   "aldehydes",
+   "orris",
+   "clary sage"
+  ],
+  "notes_base": [
+   "tonka bean",
+   "cedar"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/21.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/giorgio-armani/armani-code-parfum-75126.html",
+  "accords": [
+   "iris",
+   "aromatic",
+   "powdery",
+   "woody",
+   "citrus"
+  ]
  },
  {
   "id": "22",
@@ -560,12 +854,32 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "cinnamon",
+   "cardamom",
+   "orange blossom",
+   "bergamot"
+  ],
+  "notes_heart": [
+   "bourbon vanilla",
+   "elemi"
+  ],
+  "notes_base": [
+   "praline",
+   "musk",
+   "ambroxan",
+   "guaiac wood"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/22.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/parfums-de-marly/althair-84109.html",
+  "accords": [
+   "sweet",
+   "vanilla",
+   "warm spicy",
+   "musky",
+   "cinnamon"
+  ]
  },
  {
   "id": "23",
@@ -591,7 +905,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/23.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "24",
@@ -612,12 +927,31 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "sea salt",
+   "fruity notes"
+  ],
+  "notes_heart": [
+   "sicilian lemon",
+   "bergamot",
+   "iris",
+   "mandarin orange"
+  ],
+  "notes_base": [
+   "sea notes",
+   "musk",
+   "woody notes"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/24.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/creed/millesime-imperial-466.html",
+  "accords": [
+   "marine",
+   "citrus",
+   "salty",
+   "fruity",
+   "aromatic"
+  ]
  },
  {
   "id": "25",
@@ -637,12 +971,30 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "lime",
+   "blood orange",
+   "blood mandarin",
+   "bergamot",
+   "lemon"
+  ],
+  "notes_heart": [
+   "tiare flower"
+  ],
+  "notes_base": [
+   "powdery notes",
+   "musk",
+   "sandalwood"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/25.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/louis-vuitton/city-of-stars-73344.html",
+  "accords": [
+   "citrus",
+   "powdery",
+   "white floral",
+   "musky"
+  ]
  },
  {
   "id": "26",
@@ -663,12 +1015,38 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "green notes",
+   "grapefruit",
+   "spices",
+   "bergamot",
+   "lavender",
+   "petitgrain"
+  ],
+  "notes_heart": [
+   "ginger",
+   "violet",
+   "gardenia",
+   "sage"
+  ],
+  "notes_base": [
+   "musk",
+   "sandalwood",
+   "incense",
+   "vetiver",
+   "guaiac wood",
+   "labdanum"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/26.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/carolina-herrera/212-men-297.html",
+  "accords": [
+   "citrus",
+   "green",
+   "warm spicy",
+   "aromatic",
+   "woody"
+  ]
  },
  {
   "id": "27",
@@ -689,12 +1067,31 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "bergamot",
+   "grapefruit"
+  ],
+  "notes_heart": [
+   "iris",
+   "bulgarian rose",
+   "praline",
+   "mahonial"
+  ],
+  "notes_base": [
+   "leather",
+   "vanilla",
+   "patchouli"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/27.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/valentino/valentino-donna-31411.html",
+  "accords": [
+   "iris",
+   "rose",
+   "powdery",
+   "leather",
+   "vanilla"
+  ]
  },
  {
   "id": "28",
@@ -715,12 +1112,41 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "strawberry",
+   "raspberry",
+   "pear",
+   "orange",
+   "tangerine",
+   "calabrian bergamot",
+   "calone"
+  ],
+  "notes_heart": [
+   "peony",
+   "jasmine sambac",
+   "chinese jasmine",
+   "datura",
+   "orange blossom"
+  ],
+  "notes_base": [
+   "indonesian patchouli leaf",
+   "patchouli",
+   "white musk",
+   "vanila",
+   "ambroxan",
+   "moss",
+   "cedar"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/28.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/yves-saint-laurent/mon-paris-38914.html",
+  "accords": [
+   "fruity",
+   "sweet",
+   "fresh",
+   "patchouli",
+   "white floral"
+  ]
  },
  {
   "id": "29",
@@ -746,7 +1172,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/29.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "30",
@@ -771,7 +1198,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/30.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "31",
@@ -792,12 +1220,40 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "pear",
+   "melon",
+   "magnolia",
+   "peach",
+   "mandarin orange",
+   "bergamot"
+  ],
+  "notes_heart": [
+   "jasmine",
+   "lily-of-the-valley",
+   "tuberose",
+   "freesia",
+   "rose",
+   "orchid",
+   "plum",
+   "violet"
+  ],
+  "notes_base": [
+   "musk",
+   "vanilla",
+   "blackberry",
+   "cedar"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/31.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/dior/j-adore-210.html",
+  "accords": [
+   "white floral",
+   "floral",
+   "fruity",
+   "sweet",
+   "fresh"
+  ]
  },
  {
   "id": "32",
@@ -818,12 +1274,28 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "cardamom"
+  ],
+  "notes_heart": [
+   "lavender",
+   "iris"
+  ],
+  "notes_base": [
+   "vanilla",
+   "oriental notes",
+   "woodsy notes"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/32.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/jean-paul-gaultier/le-male-le-parfum-61856.html",
+  "accords": [
+   "warm spicy",
+   "vanilla",
+   "lavender",
+   "aromatic",
+   "powdery"
+  ]
  },
  {
   "id": "33",
@@ -844,12 +1316,25 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "bergamot"
+  ],
+  "notes_heart": [
+   "coconut"
+  ],
+  "notes_base": [
+   "tonka bean"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/33.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/jean-paul-gaultier/le-beau-55785.html",
+  "accords": [
+   "coconut",
+   "vanilla",
+   "sweet",
+   "citrus",
+   "lactonic"
+  ]
  },
  {
   "id": "34",
@@ -875,7 +1360,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/34.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "35",
@@ -900,7 +1386,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/35.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "36",
@@ -926,7 +1413,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/36.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "37",
@@ -947,12 +1435,31 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "sea notes",
+   "grapefruit",
+   "mandarin orange"
+  ],
+  "notes_heart": [
+   "bay leaf",
+   "jasmine"
+  ],
+  "notes_base": [
+   "ambergris",
+   "guaiac wood",
+   "oakmoss",
+   "patchouli"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/37.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/paco-rabanne/invictus-18471.html",
+  "accords": [
+   "citrus",
+   "marine",
+   "aromatic",
+   "fresh spicy",
+   "woody"
+  ]
  },
  {
   "id": "38",
@@ -973,12 +1480,31 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "black currant",
+   "pear"
+  ],
+  "notes_heart": [
+   "iris",
+   "jasmine",
+   "orange blossom"
+  ],
+  "notes_base": [
+   "praline",
+   "vanilla",
+   "patchouli",
+   "tonka bean"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/38.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/lancome/la-vie-est-belle-14982.html",
+  "accords": [
+   "sweet",
+   "vanilla",
+   "fruity",
+   "patchouli",
+   "woody"
+  ]
  },
  {
   "id": "39",
@@ -1004,7 +1530,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/39.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "40",
@@ -1030,7 +1557,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/40.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "41",
@@ -1056,7 +1584,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/41.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "42",
@@ -1082,7 +1611,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/42.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "43",
@@ -1108,7 +1638,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/43.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "44",
@@ -1134,7 +1665,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/44.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "45",
@@ -1155,12 +1687,27 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "candied lemon"
+  ],
+  "notes_heart": [
+   "panacotta",
+   "orange blossom",
+   "rum"
+  ],
+  "notes_base": [
+   "vanilla"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/45.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/dolce-gabbana/devotion-84951.html",
+  "accords": [
+   "vanilla",
+   "sweet",
+   "white floral",
+   "powdery",
+   "lactonic"
+  ]
  },
  {
   "id": "46",
@@ -1181,12 +1728,34 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "bergamot",
+   "pink pepper",
+   "artemisia"
+  ],
+  "notes_heart": [
+   "lavender",
+   "iris",
+   "sage",
+   "suede",
+   "saffron"
+  ],
+  "notes_base": [
+   "musk",
+   "caramel",
+   "haitian vetiver",
+   "patchouli"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/46.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/prada/luna-rossa-ocean-68753.html",
+  "accords": [
+   "aromatic",
+   "musky",
+   "powdery",
+   "lavender",
+   "herbal"
+  ]
  },
  {
   "id": "47",
@@ -1207,12 +1776,28 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "lavender",
+   "bitter orange"
+  ],
+  "notes_heart": [
+   "mint",
+   "clary sage"
+  ],
+  "notes_base": [
+   "ambrette (musk mallow)",
+   "ambroxan"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/47.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/prada/luna-rossa-15754.html",
+  "accords": [
+   "aromatic",
+   "lavender",
+   "green",
+   "fresh spicy",
+   "citrus"
+  ]
  },
  {
   "id": "48",
@@ -1238,7 +1823,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/48.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "49",
@@ -1263,7 +1849,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/49.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "50",
@@ -1284,12 +1871,29 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "bergamot",
+   "myrtle"
+  ],
+  "notes_heart": [
+   "hazelnut",
+   "chocolate",
+   "roasted coffee beans"
+  ],
+  "notes_base": [
+   "leather",
+   "cedar"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/50.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/valentino/valentino-uomo-19558.html",
+  "accords": [
+   "woody",
+   "nutty",
+   "warm spicy",
+   "chocolate",
+   "leather"
+  ]
  },
  {
   "id": "51",
@@ -1315,7 +1919,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/51.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "52",
@@ -1341,7 +1946,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/52.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "53",
@@ -1362,12 +1968,34 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "lemon",
+   "cedar",
+   "citron"
+  ],
+  "notes_heart": [
+   "water hyacinth",
+   "pink pepper",
+   "jasmine"
+  ],
+  "notes_base": [
+   "white musk",
+   "patchouli",
+   "vetiver",
+   "teak wood",
+   "iris",
+   "amber"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/53.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/chanel/chance-eau-fraiche-1483.html",
+  "accords": [
+   "woody",
+   "citrus",
+   "aromatic",
+   "floral",
+   "musky"
+  ]
  },
  {
   "id": "54",
@@ -1393,7 +2021,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/54.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "55",
@@ -1419,7 +2048,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/55.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "56",
@@ -1440,12 +2070,33 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "lavender",
+   "lemon zest",
+   "amalfi lemon"
+  ],
+  "notes_heart": [
+   "lavender",
+   "earthy notes",
+   "apple",
+   "smoke",
+   "patchouli"
+  ],
+  "notes_base": [
+   "vanilla",
+   "lavender",
+   "vetiver"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/56.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/paco-rabanne/phantom-68226.html",
+  "accords": [
+   "citrus",
+   "vanilla",
+   "lavender",
+   "earthy",
+   "aromatic"
+  ]
  },
  {
   "id": "57",
@@ -1466,12 +2117,25 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "blue lotus"
+  ],
+  "notes_heart": [
+   "iris"
+  ],
+  "notes_base": [
+   "vanilla"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/57.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/jean-paul-gaultier/la-belle-paradise-garden-88873.html",
+  "accords": [
+   "vanilla",
+   "floral",
+   "powdery",
+   "iris",
+   "aquatic"
+  ]
  },
  {
   "id": "58",
@@ -1492,12 +2156,31 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "calypsone",
+   "red berries",
+   "bergamot"
+  ],
+  "notes_heart": [
+   "lily",
+   "ylang-ylang",
+   "jasmine"
+  ],
+  "notes_base": [
+   "meringue",
+   "musk",
+   "patchouli"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/58.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/jean-paul-gaultier/gaultier-divine-83889.html",
+  "accords": [
+   "white floral",
+   "sweet",
+   "aquatic",
+   "marine",
+   "aromatic"
+  ]
  },
  {
   "id": "59",
@@ -1523,7 +2206,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/59.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "60",
@@ -1549,7 +2233,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/60.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "61",
@@ -1570,12 +2255,25 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "sicilian lemon"
+  ],
+  "notes_heart": [
+   "cypress"
+  ],
+  "notes_base": [
+   "amberwood"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/61.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/dolce-gabbana/light-blue-pour-homme-summer-vibes-80377.html",
+  "accords": [
+   "woody",
+   "aromatic",
+   "citrus",
+   "amber",
+   "fresh spicy"
+  ]
  },
  {
   "id": "62",
@@ -1596,12 +2294,31 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "grapefruit",
+   "bergamot",
+   "sicilian mandarin",
+   "juniper"
+  ],
+  "notes_heart": [
+   "pepper",
+   "rosemary",
+   "brazilian rosewood"
+  ],
+  "notes_base": [
+   "musk",
+   "incense",
+   "oakmoss"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/62.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/dolce-gabbana/light-blue-pour-homme-1068.html",
+  "accords": [
+   "citrus",
+   "fresh spicy",
+   "aromatic",
+   "woody"
+  ]
  },
  {
   "id": "63",
@@ -1622,12 +2339,32 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "sicilian lemon",
+   "apple",
+   "cedar",
+   "bellflower"
+  ],
+  "notes_heart": [
+   "bamboo",
+   "jasmine",
+   "white rose"
+  ],
+  "notes_base": [
+   "cedar",
+   "musk",
+   "amber"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/63.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/dolce-gabbana/light-blue-485.html",
+  "accords": [
+   "citrus",
+   "woody",
+   "fresh",
+   "fruity",
+   "aromatic"
+  ]
  },
  {
   "id": "64",
@@ -1653,7 +2390,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/64.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "65",
@@ -1674,12 +2412,36 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "apple",
+   "plum",
+   "lemon",
+   "bergamot",
+   "oakmoss",
+   "geranium"
+  ],
+  "notes_heart": [
+   "cinnamon",
+   "mahogany",
+   "carnation"
+  ],
+  "notes_base": [
+   "vanilla",
+   "sandalwood",
+   "cedar",
+   "vetiver",
+   "olive tree"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/65.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/hugo-boss/boss-bottled-383.html",
+  "accords": [
+   "woody",
+   "fruity",
+   "vanilla",
+   "warm spicy",
+   "cinnamon"
+  ]
  },
  {
   "id": "66",
@@ -1700,12 +2462,31 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "marine notes",
+   "lavender",
+   "pink pepper"
+  ],
+  "notes_heart": [
+   "soap",
+   "violet leaf",
+   "myrtle"
+  ],
+  "notes_base": [
+   "musk",
+   "cashmeran",
+   "sandalwood"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/66.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/paco-rabanne/invictus-parfum-90433.html",
+  "accords": [
+   "musky",
+   "aromatic",
+   "marine",
+   "soapy",
+   "woody"
+  ]
  },
  {
   "id": "67",
@@ -1726,12 +2507,32 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "orange peel"
+  ],
+  "notes_heart": [
+   "magnolia",
+   "rice",
+   "narcissus",
+   "italian jasmine",
+   "iris",
+   "bulgarian rose"
+  ],
+  "notes_base": [
+   "ambergris",
+   "sandalwood",
+   "vanille"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/67.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/creed/love-in-white-4262.html",
+  "accords": [
+   "floral",
+   "citrus",
+   "yellow floral",
+   "white floral",
+   "powdery"
+  ]
  },
  {
   "id": "68",
@@ -1752,12 +2553,30 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "pear blossom",
+   "red berries",
+   "italian mandarin"
+  ],
+  "notes_heart": [
+   "gardenia",
+   "jasmine",
+   "frangipani"
+  ],
+  "notes_base": [
+   "brown sugar",
+   "patchouli"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/68.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/gucci/flora-gorgeous-gardenia-68578.html",
+  "accords": [
+   "white floral",
+   "floral",
+   "sweet",
+   "fruity",
+   "patchouli"
+  ]
  },
  {
   "id": "69",
@@ -1783,7 +2602,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/69.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "70",
@@ -1804,12 +2624,35 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "lemon zest",
+   "bergamot",
+   "mint",
+   "artemisia"
+  ],
+  "notes_heart": [
+   "lavender",
+   "pineapple",
+   "geranium",
+   "green notes"
+  ],
+  "notes_base": [
+   "sandalwood",
+   "cedar",
+   "amberwood",
+   "iso e super",
+   "tonka bean"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/70.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/chanel/bleu-de-chanel-parfum-49912.html",
+  "accords": [
+   "woody",
+   "citrus",
+   "aromatic",
+   "amber",
+   "fresh spicy"
+  ]
  },
  {
   "id": "71",
@@ -1830,12 +2673,34 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "patchouli",
+   "pink pepper",
+   "pineapple",
+   "hiacynth",
+   "iris"
+  ],
+  "notes_heart": [
+   "lemon",
+   "jasmine",
+   "rose"
+  ],
+  "notes_base": [
+   "patchouli",
+   "musk",
+   "vetiver",
+   "vanilla"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/71.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/chanel/chance-eau-de-toilette-610.html",
+  "accords": [
+   "patchouli",
+   "woody",
+   "sweet",
+   "earthy",
+   "citrus"
+  ]
  },
  {
   "id": "72",
@@ -1856,12 +2721,34 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "pear",
+   "lavender",
+   "mint",
+   "bergamot",
+   "lemon"
+  ],
+  "notes_heart": [
+   "cinnamon",
+   "clary sage",
+   "caraway"
+  ],
+  "notes_base": [
+   "black vanilla husk",
+   "amber",
+   "patchouli",
+   "cedar"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/72.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/jean-paul-gaultier/ultra-male-30947.html",
+  "accords": [
+   "vanilla",
+   "fruity",
+   "sweet",
+   "aromatic",
+   "cinnamon"
+  ]
  },
  {
   "id": "73",
@@ -1887,7 +2774,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/73.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "74",
@@ -1908,12 +2796,29 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "bulgarian rose",
+   "chamomile",
+   "bergamot"
+  ],
+  "notes_heart": [
+   "guaiac wood",
+   "hedione"
+  ],
+  "notes_base": [
+   "agarwood (oud)",
+   "papyrus"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/74.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/maison-francis-kurkdjian/oud-silk-mood-48456.html",
+  "accords": [
+   "rose",
+   "oud",
+   "floral",
+   "woody",
+   "fresh spicy"
+  ]
  },
  {
   "id": "75",
@@ -1934,12 +2839,32 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "orange blossom",
+   "pimento seeds",
+   "nutmeg"
+  ],
+  "notes_heart": [
+   "orange blossom",
+   "orris",
+   "osmanthus"
+  ],
+  "notes_base": [
+   "vanilla",
+   "ambrofix",
+   "benzoin",
+   "patchouli"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/75.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/gucci/guilty-elixir-de-parfum-pour-homme-84547.html",
+  "accords": [
+   "vanilla",
+   "white floral",
+   "warm spicy",
+   "amber",
+   "powdery"
+  ]
  },
  {
   "id": "76",
@@ -1965,7 +2890,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/76.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "77",
@@ -1991,7 +2917,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/77.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "78",
@@ -2017,7 +2944,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/78.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "79",
@@ -2038,12 +2966,29 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "hazelnut",
+   "cacao"
+  ],
+  "notes_heart": [
+   "jasmine sambac",
+   "cedar"
+  ],
+  "notes_base": [
+   "ambroxan",
+   "caramel",
+   "moss"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/79.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/bond-no-9/tribeca-59904.html",
+  "accords": [
+   "amber",
+   "caramel",
+   "woody",
+   "nutty",
+   "white floral"
+  ]
  },
  {
   "id": "80",
@@ -2064,12 +3009,32 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "mandarin orange",
+   "bergamot",
+   "grapefruit"
+  ],
+  "notes_heart": [
+   "orange blossom",
+   "raspberry",
+   "black currant"
+  ],
+  "notes_base": [
+   "whipped cream",
+   "marshamallow",
+   "musk",
+   "ambrette (musk mallow)"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/80.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/parfums-de-marly/oriana-69117.html",
+  "accords": [
+   "sweet",
+   "citrus",
+   "fruity",
+   "powdery",
+   "white floral"
+  ]
  },
  {
   "id": "81",
@@ -2090,12 +3055,32 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "pineapple",
+   "hyacinth"
+  ],
+  "notes_heart": [
+   "iris",
+   "jasmine",
+   "pink pepper"
+  ],
+  "notes_base": [
+   "musk",
+   "vetiver",
+   "amber",
+   "vanilla",
+   "patchouli"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/81.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/xerjoff/accento-55156.html",
+  "accords": [
+   "musky",
+   "powdery",
+   "sweet",
+   "earthy",
+   "fruity"
+  ]
  },
  {
   "id": "82",
@@ -2116,12 +3101,30 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "pear",
+   "orange"
+  ],
+  "notes_heart": [
+   "orange blossom",
+   "ylang-ylang",
+   "iris"
+  ],
+  "notes_base": [
+   "vanilla",
+   "amber",
+   "sandalwood"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/82.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/parfums-de-marly/safanad-18749.html",
+  "accords": [
+   "sweet",
+   "white floral",
+   "citrus",
+   "vanilla",
+   "powdery"
+  ]
  },
  {
   "id": "83",
@@ -2142,12 +3145,32 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "pomegranate",
+   "yuzu",
+   "water notes"
+  ],
+  "notes_heart": [
+   "peony",
+   "raspberry",
+   "lotus",
+   "magnolia"
+  ],
+  "notes_base": [
+   "musk",
+   "mahogany",
+   "amber"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/83.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/versace/bright-crystal-absolu-21547.html",
+  "accords": [
+   "floral",
+   "fruity",
+   "fresh",
+   "sweet",
+   "woody"
+  ]
  },
  {
   "id": "84",
@@ -2168,12 +3191,31 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "bergamot",
+   "grapefruit"
+  ],
+  "notes_heart": [
+   "iris",
+   "pepper",
+   "hedione"
+  ],
+  "notes_base": [
+   "patchouli",
+   "java vetiver oil",
+   "iso e super",
+   "white musk"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/84.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/louis-vuitton/orage-49752.html",
+  "accords": [
+   "woody",
+   "citrus",
+   "aromatic",
+   "fresh spicy",
+   "earthy"
+  ]
  },
  {
   "id": "85",
@@ -2194,12 +3236,34 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "sea notes",
+   "aquozone",
+   "bergamot",
+   "green mandarin"
+  ],
+  "notes_heart": [
+   "rosemary",
+   "lavender",
+   "cypress",
+   "mastic or lentisque"
+  ],
+  "notes_base": [
+   "mineral notes",
+   "musk",
+   "patchouli",
+   "amber"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/85.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/giorgio-armani/acqua-di-gio-profondo-59532.html",
+  "accords": [
+   "marine",
+   "aromatic",
+   "citrus",
+   "fresh spicy",
+   "fresh"
+  ]
  },
  {
   "id": "86",
@@ -2225,7 +3289,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/86.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "87",
@@ -2246,12 +3311,29 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "pink pepper",
+   "lemon"
+  ],
+  "notes_heart": [
+   "olibanum",
+   "lavender"
+  ],
+  "notes_base": [
+   "vanilla",
+   "tonka bean",
+   "amber"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/87.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/paco-rabanne/invictus-victory-65177.html",
+  "accords": [
+   "vanilla",
+   "amber",
+   "sweet",
+   "aromatic",
+   "soft spicy"
+  ]
  },
  {
   "id": "88",
@@ -2277,7 +3359,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/88.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "89",
@@ -2303,7 +3386,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/89.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "90",
@@ -2324,12 +3408,30 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "dewberry",
+   "coconut"
+  ],
+  "notes_heart": [
+   "magnolia",
+   "jasmine sambac",
+   "clary sage"
+  ],
+  "notes_base": [
+   "musk",
+   "patchouli",
+   "blonde woods"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/90.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/gucci/flora-gorgeous-magnolia-83621.html",
+  "accords": [
+   "floral",
+   "coconut",
+   "fruity",
+   "musky",
+   "sweet"
+  ]
  },
  {
   "id": "91",
@@ -2355,7 +3457,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/91.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "92",
@@ -2376,12 +3479,31 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "black currant",
+   "bergamot",
+   "green notes"
+  ],
+  "notes_heart": [
+   "jasmine sambac",
+   "lily-of-the-valley"
+  ],
+  "notes_base": [
+   "vanilla",
+   "tonka bean",
+   "sandalwood",
+   "cedar"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/92.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/yves-saint-laurent/manifesto-15540.html",
+  "accords": [
+   "vanilla",
+   "woody",
+   "fruity",
+   "powdery",
+   "white floral"
+  ]
  },
  {
   "id": "93",
@@ -2402,12 +3524,32 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "ginger",
+   "bergamot",
+   "lemon"
+  ],
+  "notes_heart": [
+   "spices",
+   "violet leaf",
+   "white pepper",
+   "basil"
+  ],
+  "notes_base": [
+   "tonka bean",
+   "cedar",
+   "tahitian vetiver"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/93.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/yves-saint-laurent/l-homme-734.html",
+  "accords": [
+   "warm spicy",
+   "citrus",
+   "aromatic",
+   "fresh spicy",
+   "woody"
+  ]
  },
  {
   "id": "94",
@@ -2433,7 +3575,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/94.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "95",
@@ -2459,7 +3602,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/95.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "96",
@@ -2485,7 +3629,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/96.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "97",
@@ -2506,12 +3651,31 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "gardenia",
+   "carnation",
+   "jasmine"
+  ],
+  "notes_heart": [
+   "patchouli",
+   "flowers",
+   "sandalwood",
+   "sea notes"
+  ],
+  "notes_base": [
+   "caramel",
+   "coffee"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/97.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/bond-no-9/new-york-nights-46057.html",
+  "accords": [
+   "caramel",
+   "warm spicy",
+   "coffee",
+   "woody",
+   "floral"
+  ]
  },
  {
   "id": "100",
@@ -2537,7 +3701,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/100.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "101",
@@ -2562,7 +3727,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/101.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "102",
@@ -2583,12 +3749,42 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "almond",
+   "coffee",
+   "bergamot",
+   "lemon"
+  ],
+  "notes_heart": [
+   "tuberose",
+   "jasmine sambac",
+   "orange blossom",
+   "orris",
+   "bulgarian rose"
+  ],
+  "notes_base": [
+   "tonka bean",
+   "cacao",
+   "vanilla",
+   "praline",
+   "sandalwood",
+   "musk",
+   "amber",
+   "cashmere wood",
+   "cinnamon",
+   "patchouli",
+   "cedar"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/102.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/carolina-herrera/good-girl-39681.html",
+  "accords": [
+   "sweet",
+   "white floral",
+   "warm spicy",
+   "vanilla",
+   "cacao"
+  ]
  },
  {
   "id": "103",
@@ -2609,12 +3805,29 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "white pepper",
+   "bergamot",
+   "pink pepper"
+  ],
+  "notes_heart": [
+   "cedarwood",
+   "clary sage"
+  ],
+  "notes_base": [
+   "tonka bean",
+   "cacao"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/103.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/carolina-herrera/bad-boy-55449.html",
+  "accords": [
+   "warm spicy",
+   "fresh spicy",
+   "cacao",
+   "vanilla",
+   "aromatic"
+  ]
  },
  {
   "id": "104",
@@ -2640,7 +3853,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/104.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "105",
@@ -2661,12 +3875,34 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "cassis",
+   "pineapple",
+   "bergamot",
+   "pink pepper",
+   "tangerine"
+  ],
+  "notes_heart": [
+   "patchouli",
+   "jasmine",
+   "lily"
+  ],
+  "notes_base": [
+   "leather",
+   "musk",
+   "amber",
+   "vanilla"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/105.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/bond-no-9/sutton-place-41010.html",
+  "accords": [
+   "fruity",
+   "citrus",
+   "soft spicy",
+   "sweet",
+   "leather"
+  ]
  },
  {
   "id": "106",
@@ -2687,12 +3923,34 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "lemon",
+   "pineapple",
+   "bergamot",
+   "black currant",
+   "apple"
+  ],
+  "notes_heart": [
+   "birch",
+   "jasmine",
+   "rose"
+  ],
+  "notes_base": [
+   "musk",
+   "ambergris",
+   "patchouli",
+   "vanilla"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/106.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/armaf/club-de-nuit-intense-man-34696.html",
+  "accords": [
+   "citrus",
+   "fruity",
+   "leather",
+   "smoky",
+   "woody"
+  ]
  },
  {
   "id": "107",
@@ -2713,12 +3971,31 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "grapefruit",
+   "coriander",
+   "basil"
+  ],
+  "notes_heart": [
+   "ginger",
+   "cardamom",
+   "orange blossom"
+  ],
+  "notes_base": [
+   "amber",
+   "tobacco",
+   "cedar"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/107.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/dolce-gabbana/the-one-for-men-2056.html",
+  "accords": [
+   "warm spicy",
+   "amber",
+   "tobacco",
+   "aromatic",
+   "citrus"
+  ]
  },
  {
   "id": "108",
@@ -2738,12 +4015,27 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "vanilla",
+   "lavender",
+   "cacao",
+   "ginger"
+  ],
+  "notes_heart": [
+   "vanilla caviar"
+  ],
+  "notes_base": [
+   "vanilla absolute"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/108.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/burberry/goddess-83483.html",
+  "accords": [
+   "vanilla",
+   "lavender",
+   "warm spicy",
+   "cacao"
+  ]
  },
  {
   "id": "109",
@@ -2769,7 +4061,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/109.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "110",
@@ -2794,7 +4087,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/110.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "111",
@@ -2820,7 +4114,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/111.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "112",
@@ -2846,7 +4141,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/112.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "113",
@@ -2867,12 +4163,32 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "nutmeg",
+   "cinnamon",
+   "cardamom",
+   "grapefruit"
+  ],
+  "notes_heart": [
+   "lavender"
+  ],
+  "notes_base": [
+   "licorice",
+   "sandalwood",
+   "amber",
+   "patchouli",
+   "haitian vetiver"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/113.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/dior/sauvage-elixir-68415.html",
+  "accords": [
+   "warm spicy",
+   "fresh spicy",
+   "woody",
+   "aromatic",
+   "lavender"
+  ]
  },
  {
   "id": "114",
@@ -2893,12 +4209,37 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "mint",
+   "lemon",
+   "black pepper",
+   "elemi",
+   "litsea cubeba"
+  ],
+  "notes_heart": [
+   "green apple",
+   "geranium",
+   "lavender",
+   "sage",
+   "pomarose"
+  ],
+  "notes_base": [
+   "tonka bean",
+   "amber",
+   "vanilla",
+   "patchouli",
+   "benzoin"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/114.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/versace/eros-parfum-70090.html",
+  "accords": [
+   "aromatic",
+   "amber",
+   "green",
+   "fresh spicy",
+   "vanilla"
+  ]
  },
  {
   "id": "115",
@@ -2919,12 +4260,36 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "mandarin orange",
+   "madagascar pepper",
+   "lemon",
+   "chinotto",
+   "rosemary"
+  ],
+  "notes_heart": [
+   "geranium",
+   "rose",
+   "pepperwood"
+  ],
+  "notes_base": [
+   "vanilla",
+   "tonka bean",
+   "sandalwood",
+   "texas cedar",
+   "patchouli",
+   "oakmoss"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/115.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/versace/eros-flame-52180.html",
+  "accords": [
+   "citrus",
+   "vanilla",
+   "fresh spicy",
+   "aromatic",
+   "woody"
+  ]
  },
  {
   "id": "116",
@@ -2949,7 +4314,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/116.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "117",
@@ -2975,7 +4341,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/117.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "118",
@@ -3001,7 +4368,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/118.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "119",
@@ -3027,7 +4395,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/119.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "120",
@@ -3053,7 +4422,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/120.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "121",
@@ -3074,12 +4444,31 @@
   "size_ml": null,
   "price": null,
   "description": null,
-  "notes_top": [],
-  "notes_heart": [],
-  "notes_base": [],
+  "notes_top": [
+   "cardamom",
+   "tangerine",
+   "bergamot"
+  ],
+  "notes_heart": [
+   "lavender",
+   "violet leaf",
+   "sage"
+  ],
+  "notes_base": [
+   "benzoin",
+   "cedar",
+   "patchouli"
+  ],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/121.avif",
-  "fragrantica_url": null
+  "fragrantica_url": "https://www.fragrantica.com/perfume/paco-rabanne/1-million-royal-79159.html",
+  "accords": [
+   "warm spicy",
+   "aromatic",
+   "amber",
+   "citrus",
+   "woody"
+  ]
  },
  {
   "id": "122",
@@ -3105,7 +4494,8 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/122.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  },
  {
   "id": "123",
@@ -3131,6 +4521,7 @@
   "notes_base": [],
   "color": null,
   "image_url": "https://fguzhhballdcifmqokyx.supabase.co/storage/v1/object/public/perfumes/123.avif",
-  "fragrantica_url": null
+  "fragrantica_url": null,
+  "accords": []
  }
 ]

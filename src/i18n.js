@@ -6,7 +6,7 @@ try { idioma = localStorage.getItem(KEY) === 'en' ? 'en' : 'es'; } catch {}
 
 const TEXTOS = {
   es: {
-    titulo: 'Bruma, catálogo de perfumes',
+    titulo: 'Galería de Fragancias',
     catalogo_aria: 'Catálogo de perfumes. Desliza hacia arriba para ver el siguiente.',
     idioma: 'Idioma',
     orden: 'Orden',
@@ -44,6 +44,7 @@ const TEXTOS = {
     frasco_alt: 'Frasco de',
     num: 'N°',
     volver: 'Volver al catálogo',
+    acordes: 'Acordes principales',
     wa_cotizar: 'Cotizar por WhatsApp',
     wa_consulta: 'Consultar por WhatsApp',
     wa_msg_perfume: (n, num) => `Hola, estuve viendo el catálogo y me gustaría cotizar el perfume "${n}" (N° ${num}). ¿Me podrían dar más información?`,
@@ -54,10 +55,10 @@ const TEXTOS = {
     salida: 'Salida',
     corazon: 'Corazón',
     fondo: 'Fondo',
-    fragantica: 'Ver en Fragantica'
+    fragantica: 'Ver en Fragrantica'
   },
   en: {
-    titulo: 'Bruma, perfume catalog',
+    titulo: 'The Fragrance Gallery',
     catalogo_aria: 'Perfume catalog. Swipe up to see the next one.',
     idioma: 'Language',
     orden: 'Sort',
@@ -95,6 +96,7 @@ const TEXTOS = {
     frasco_alt: 'Bottle of',
     num: 'No.',
     volver: 'Back to catalog',
+    acordes: 'Main accords',
     wa_cotizar: 'Get a quote on WhatsApp',
     wa_consulta: 'Ask on WhatsApp',
     wa_msg_perfume: (n, num) => `Hi, I was browsing the catalog and I'd like a quote for the perfume "${n}" (No. ${num}). Could you give me more information?`,
@@ -105,7 +107,7 @@ const TEXTOS = {
     salida: 'Top',
     corazon: 'Heart',
     fondo: 'Base',
-    fragantica: 'View on Fragantica'
+    fragantica: 'View on Fragrantica'
   }
 };
 

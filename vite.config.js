@@ -7,8 +7,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Bruma, catálogo de perfumes',
-        short_name: 'Bruma',
+        name: 'Galería de Fragancias',
+        short_name: 'Fragancias',
         description: 'Catálogo de perfumes con búsqueda por familia olfativa y notas.',
         lang: 'es',
         theme_color: '#ffffff',
