@@ -143,6 +143,7 @@ const I_COPA = ICO('<path d="M7 3h10l-1 7a4 4 0 0 1-8 0zM12 14v7M8 21h8"/>');
 const I_ONDA = ICO('<path d="M3 15c3-4 6 4 9 0s6 4 9 0M3 9c3-4 6 4 9 0s6 4 9 0"/>');
 const I_GOTA = ICO('<path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/>');
 const I_BOLT = ICO('<path d="M13 2L5 13h6l-1 9 8-11h-6z"/>');
+const I_ASTERISCO = ICO('<path d="M12 3v18M4.2 7.5l15.6 9M19.8 7.5l-15.6 9"/>');
 const I_BASE = ICO('<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>');
 const ICONO_USO = {
   'Noche': I_LUNA, 'Noche de Verano': I_LUNA, 'Salidas': I_LUNA, 'Día y Noche': I_SOL,
@@ -153,7 +154,7 @@ const ICONO_USO = {
   'Oficina': I_MALETIN, 'Profesional': I_MALETIN, 'Formal': I_MALETIN,
   'Fiesta': I_COPA, 'Gala': I_COPA, 'Eventos': I_COPA, 'Eventos Elegantes': I_COPA, 'Eventos Especiales': I_COPA, 'Eventos Exclusivos': I_COPA, 'Eventos Modernos': I_COPA,
   'Deporte': I_BOLT, 'Intenso': I_BOLT, 'Impacto': I_BOLT,
-  'Diario': I_BASE, 'Todo el año': I_BASE, 'Versátil': I_BASE, 'Casual': I_BASE,
+  'Diario': I_BASE, 'Todo el año': I_BASE, 'Versátil': I_ASTERISCO, 'Casual': I_BASE,
 };
 const iconoUso = (u) => ICONO_USO[u] || I_ESTRELLA;
 
