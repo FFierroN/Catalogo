@@ -262,7 +262,9 @@ select {
   position: fixed; z-index: 4; left: 0; width: 2.25rem;
   top: calc(var(--safe-top) + 9.5rem); bottom: calc(var(--safe-bottom) + 2.6rem);
   touch-action: none; cursor: grab;
+  opacity: 0.7; transition: opacity 0.35s ease;
 }
+.riel[data-arrastrando] { opacity: 1; transition-duration: 0.1s; }
 .riel[hidden] { display: none; }
 .riel-linea { position: absolute; left: 1.05rem; top: 0; bottom: 0; width: 3px; border-radius: 3px; background: var(--line); }
 .riel-pulgar {
